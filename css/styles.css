@@ -140,10 +140,7 @@ color: var(--active-button);
 
 .hero {
     background-color: var(--second-text-color);
-    padding-top: 188px;
-    padding-bottom: 292px;
-    padding-left: 472px;
-    padding-right: 472px;
+    padding: 188px 0;
    
 }
 .hero-text {
@@ -173,7 +170,9 @@ padding-top: 16px;
 padding-bottom: 16px;
 padding-left: 32px;
 padding-right: 32px;
-min-width: 105px;
+min-width: 169px;
+display: block;
+margin: auto;
 
 
 }
@@ -186,7 +185,8 @@ min-width: 105px;
 /* ---------=-=-=-=---------------=-=-= FEATURE */
 
 .feature {
-padding: 188px 0
+    margin-top: 120px;
+    margin-bottom: 60px;
 }
 .headline {
     font-size: 36px;
