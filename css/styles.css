@@ -38,8 +38,9 @@ body {
     width-max: 1158px;
     margin-left: auto;
     margin-right: auto;
-    padding-left: 16px;
-    padding-right: 16px;
+    padding-left: 15px;
+    padding-right: 15px;
+    
 }
 
 .link {
@@ -65,6 +66,8 @@ body {
 .page-header {
     padding-top: 24px;
     padding-bottom: 24px;
+    border-bottom: 1px solid #e7e9fc;
+    
 }
 .page-header-container {
     display: flex;
@@ -85,7 +88,7 @@ body {
     letter-spacing: 0.03em;
     font-weight: 800;
     text-transform: uppercase;
-
+    margin-right: 76px
 }
 .studio {
     font-family: var(--second-fond);
@@ -93,7 +96,7 @@ body {
 }
 .menu {
     display: flex;
-    column-gap: 40px;
+    gap: 40px
 }
 .menu-link
 {
@@ -211,8 +214,8 @@ min-width: 105px;
 }
 /* --------------------------------------APPS */
 .apps {
-    padding-top: 60px;
-    padding-bottom: 120px;
+    padding-top: 188px;
+    padding-bottom: 188px;
 }
 .apps-img{
     display: flex;
