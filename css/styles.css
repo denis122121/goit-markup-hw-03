@@ -35,7 +35,7 @@ body {
 }
 
 .container {
-    width: 1158px;
+    width-max: 1158px;
     margin-left: auto;
     margin-right: auto;
     padding-left: 16px;
@@ -206,7 +206,7 @@ min-width: 105px;
     letter-spacing: 0.02em;
 }
 .feature-list-item {
-    width: calc((100% - 72px) / 3);
+    width: calc((100% - 72px) / 4);
 
 }
 /* --------------------------------------APPS */
@@ -220,7 +220,7 @@ min-width: 105px;
     column-gap: 24px;
 }
 .apps-img-item{
-    width: calc((100% - 48px) / 2);
+    width: calc((100% - 48px) / 3);
 }
 
 /* ---------------------------------EMPLOYEE */
@@ -235,7 +235,7 @@ min-width: 105px;
 }
 .employee-item {
     background-color: #FFFFFF;
-    width: var((100% - 72px) / 3);
+    width: var((100% - 72px) / 4);
 }
 .employee-item-img {
     margin-bottom: 32px;
