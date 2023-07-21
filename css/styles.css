@@ -186,8 +186,7 @@ min-width: 105px;
 /* ---------=-=-=-=---------------=-=-= FEATURE */
 
 .feature {
-    margin-top: 120px;
-    margin-bottom: 60px;
+padding: 188px 0
 }
 .headline {
     font-size: 36px;
@@ -214,8 +213,8 @@ min-width: 105px;
 }
 /* --------------------------------------APPS */
 .apps {
-    padding-top: 188px;
-    padding-bottom: 188px;
+    padding-top: 60px;
+    padding-bottom: 120px;
 }
 .apps-img{
     display: flex;
