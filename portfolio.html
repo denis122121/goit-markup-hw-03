@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="/css/styles.css" />
+
     <link
       href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap"
       rel="stylesheet"
@@ -15,137 +15,169 @@
     />
     <link rel="stylesheet" href="https://fonts.googleapis.com" />
     <link rel="stylesheet" href="https://fonts.gstatic.com" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/modern-normalize@2.0.0/modern-normalize.min.css
+"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="/css/styles.css" />
   </head>
   <body>
-    <header>
-      <nav>
-        <a class="logo link" href="./index.html"
-          >web<span class="studio">Studio</span></a
-        >
+    <header class="page-header">
+      <div class="container page-header-container">
+        <nav class="page-nav">
+          <a class="logo link" href="./index.html"
+            >web<span class="studio">Studio</span></a
+          >
 
-        <ul class="list menu">
-          <li class="menu-item">
-            <a class="link menu-link" href="./index.html">Studio</a>
-          </li>
-          <li class="menu-item">
-            <a class="link menu-link" href="./portfolio.html">Portfolio</a>
-          </li>
-          <li class="menu-item">
-            <a class="link menu-link" href="">Contacts</a>
-          </li>
-        </ul>
-      </nav>
-      <address class="address">
-        <ul class="list">
-          <li>
-            <a class="link adress-link" href="mailto:info@devstudio.com"
-              >info@devstudio.com</a
-            >
-          </li>
-          <li>
-            <a class="link adress-link" href="tel:+110001111111"
-              >+11(000)111-11-11</a
-            >
-          </li>
-        </ul>
-      </address>
+          <ul class="list menu">
+            <li class="menu-item">
+              <a class="link menu-link" href="./index.html">Studio</a>
+            </li>
+            <li class="menu-item">
+              <a class="link menu-link" href="./portfolio.html">Portfolio</a>
+            </li>
+            <li class="menu-item">
+              <a class="link menu-link" href="">Contacts</a>
+            </li>
+          </ul>
+        </nav>
+        <address class="address">
+          <ul class="list address-item">
+            <li>
+              <a class="link adress-link" href="mailto:info@devstudio.com"
+                >info@devstudio.com</a
+              >
+            </li>
+            <li>
+              <a class="link adress-link" href="tel:+110001111111"
+                >+11(000)111-11-11</a
+              >
+            </li>
+          </ul>
+        </address>
+      </div>
     </header>
     <main>
       <section>
-        <h1>Portfolio</h1>
-        <ul class="list">
-          <li><button class="hero-button" type="button">All</button></li>
-          <li><button class="hero-button" type="button">Web Site</button></li>
-          <li><button class="hero-button" type="button">App</button></li>
-          <li><button class="hero-button" type="button">Design</button></li>
-          <li><button class="hero-button" type="button">Marketing</button></li>
-        </ul>
-        <ul class="list link">
-          <li>
-            <a class="link" href="">
-              <img src="./images/img-hm-2/img4.jpg" alt="app" width="360" />
+        <div class="container">
+          <h1 hidden>Portfolio</h1>
+          <ul class="list filter-list">
+            <li>
+              <button class="portfolio-filter-btn" type="button">All</button>
+            </li>
+            <li>
+              <button class="portfolio-filter-btn" type="button">
+                Web Site
+              </button>
+            </li>
+            <li>
+              <button class="portfolio-filter-btn" type="button">App</button>
+            </li>
+            <li>
+              <button class="portfolio-filter-btn" type="button">Design</button>
+            </li>
+            <li>
+              <button class="portfolio-filter-btn" type="button">
+                Marketing
+              </button>
+            </li>
+          </ul>
+          <ul class="list link finger">
+            <li class="list-finger-item">
+              <a class="link" href="">
+                <img src="./images/img-hm-2/img4.jpg" alt="app" width="360" />
 
-              <h2>Banking App Interface Concept</h2>
-              <p>App</p>
-            </a>
-          </li>
-          <li>
-            <a class="link" href=""
-              ><img src="./images/img-hm-2/img5.jpg" alt="phone" width="360" />
+                <h2>Banking App Interface Concept</h2>
+                <p>App</p>
+              </a>
+            </li>
+            <li class="list-finger-item">
+              <a class="link" href=""
+                ><img
+                  src="./images/img-hm-2/img5.jpg"
+                  alt="phone"
+                  width="360"
+                />
 
-              <h2>Cashless Payment</h2>
-              <p>Marketing</p>
-            </a>
-          </li>
-          <li>
-            <a class="link" href=""
-              ><img
-                src="./images/img-hm-2/img6.jpg"
-                alt="computer"
-                width="360"
-              />
+                <h2>Cashless Payment</h2>
+                <p>Marketing</p>
+              </a>
+            </li>
+            <li class="list-finger-item">
+              <a class="link" href=""
+                ><img
+                  src="./images/img-hm-2/img6.jpg"
+                  alt="computer"
+                  width="360"
+                />
 
-              <h2>Meditation App</h2>
-              <p>App</p>
-            </a>
-          </li>
-          <li>
-            <a class="link" href="">
-              <img src="./images/img-hm-2/img7.jpg" alt="car" width="360" />
+                <h2>Meditation App</h2>
+                <p>App</p>
+              </a>
+            </li>
+            <li class="list-finger-item">
+              <a class="link" href="">
+                <img src="./images/img-hm-2/img7.jpg" alt="car" width="360" />
 
-              <h2>Taxi Service</h2>
-              <p>Marketing</p>
-            </a>
-          </li>
-          <li>
-            <a class="link" href="">
-              <img src="./images/img-hm-2/img8.jpg" alt="phone" width="360" />
+                <h2>Taxi Service</h2>
+                <p>Marketing</p>
+              </a>
+            </li>
+            <li class="list-finger-item">
+              <a class="link" href="">
+                <img src="./images/img-hm-2/img8.jpg" alt="phone" width="360" />
 
-              <h2>Screen Illustrations</h2>
-              <p>Design</p>
-            </a>
-          </li>
-          <li>
-            <a class="link" href="">
-              <img src="./images/img-hm-2/img9.jpg" alt="woman" width="360" />
+                <h2>Screen Illustrations</h2>
+                <p>Design</p>
+              </a>
+            </li>
+            <li class="list-finger-item">
+              <a class="link" href="">
+                <img src="./images/img-hm-2/img9.jpg" alt="woman" width="360" />
 
-              <h2>Online Courses</h2>
-              <p>Marketing</p>
-            </a>
-          </li>
-          <li>
-            <a class="link" href="">
-              <img
-                src="./images/img-hm-2/img10.jpg"
-                alt="instagram-stories"
-                width="360"
-              />
+                <h2>Online Courses</h2>
+                <p>Marketing</p>
+              </a>
+            </li>
+            <li class="list-finger-item">
+              <a class="link" href="">
+                <img
+                  src="./images/img-hm-2/img10.jpg"
+                  alt="instagram-stories"
+                  width="360"
+                />
 
-              <h2>Instagram Stories Concept</h2>
-              <p>Design</p>
-            </a>
-          </li>
-          <li>
-            <a class="link" href="">
-              <img
-                src="./images/img-hm-2/img11.jpg"
-                alt="organic-food"
-                width="360"
-              />
+                <h2>Instagram Stories Concept</h2>
+                <p>Design</p>
+              </a>
+            </li>
+            <li class="list-finger-item">
+              <a class="link" href="">
+                <img
+                  src="./images/img-hm-2/img11.jpg"
+                  alt="organic-food"
+                  width="360"
+                />
 
-              <h2>Organic Food</h2>
-              <p>Web Site</p>
-            </a>
-          </li>
-          <li>
-            <a class="link" href="">
-              <img src="./images/img-hm-2/img12.jpg" alt="coffe" width="360" />
+                <h2>Organic Food</h2>
+                <p>Web Site</p>
+              </a>
+            </li>
+            <li class="list-finger-item">
+              <a class="link" href="">
+                <img
+                  src="./images/img-hm-2/img12.jpg"
+                  alt="coffe"
+                  width="360"
+                />
 
-              <h2>Fresh Coffee</h2>
-              <p>Web Site</p>
-            </a>
-          </li>
-        </ul>
+                <h2>Fresh Coffee</h2>
+                <p>Web Site</p>
+              </a>
+            </li>
+          </ul>
+        </div>
       </section>
     </main>
     <footer class="footer">
