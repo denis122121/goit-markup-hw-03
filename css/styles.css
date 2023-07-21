@@ -88,7 +88,7 @@ body {
     letter-spacing: 0.03em;
     font-weight: 800;
     text-transform: uppercase;
-    margin-right: 76px
+    margin-right: 76px;
 }
 .studio {
     font-family: var(--second-fond);
@@ -140,7 +140,10 @@ color: var(--active-button);
 
 .hero {
     background-color: var(--second-text-color);
-    padding: 188px 0;
+    padding-top: 188px;
+    padding-bottom: 292px;
+    padding-left: 472px;
+    padding-right: 472px;
    
 }
 .hero-text {
@@ -317,8 +320,12 @@ box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.12), 0px 2px 1px 0px rgba(0, 0, 0, 0
 .list-finger-item{
     flex-basis: calc((100% - 48px) / 3);
 }
-
-
+.fingre-list{
+    margin-top: 32px;
+}
+.finger-text{
+    margin-top: 8px;
+}
 
 
 
