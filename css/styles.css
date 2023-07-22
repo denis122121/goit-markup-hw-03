@@ -317,10 +317,11 @@ padding: 100px 0;
     
 }
 .filter-list{
-    display: flex;
-        justify-content: center;
-        width: 1158px;
+ display: flex;
+ justify-content: center;
+ width: 1158px;
  margin-bottom: 72px;
+ gap: 24px;
 }
 .portfolio-btn-item{
     margin-right: 24px;
